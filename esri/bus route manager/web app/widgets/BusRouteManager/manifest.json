@@ -1,0 +1,24 @@
+{
+  "name": "BusRouteManager",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.1",
+  "wabVersion": "2.14",
+  "author": "James Moloney | MSPATIAL 2020",
+  "description": "This is the custom widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": true,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":true,
+		"hasSettingPage":true,
+		"hasSettingUIFile":true,
+		"hasSettingLocale":false,
+		"hasSettingStyle":true,
+		"IsController":false
+  }
+}

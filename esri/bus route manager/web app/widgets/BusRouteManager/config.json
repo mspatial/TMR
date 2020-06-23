@@ -1,0 +1,16 @@
+{
+    "busScheduledServices": {
+        "url": "https://stas-arcgis-dev.qdot.qld.gov.au/server/rest/services/bus_route_manager/Bus_Routes_All/FeatureServer/0",
+        "id": "bss",
+        "sid": "sbr"
+    },
+    "printSettings": {
+        "printServiceUrl": "https://stas-arcgis-dev.qdot.qld.gov.au/server/rest/services/bus_route_manager/PrintTools/GPServer",
+        "getLayoutTemplatesInfoTask": "GetLayoutTemplatesInfo",
+        "exportWebMapTask": "ExportWebMapTask",
+        "printTemplatesFolder":"C:/arcgisprinttemplates",
+        "customElements":{
+            "disclaimer":"TransLink has made every effort to ensure all information contained in this document is accurated and true."
+        }
+    }
+}

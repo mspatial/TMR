@@ -1,0 +1,20 @@
+<div>
+    <h1>Search</h1>
+    <input autocomplete="off" autocorrect="off" id="searchInput" list="servicesList"
+        data-dojo-attach-point="searchInput" data-dojo-attach-event="onkeyup:_onSearchService"
+        data-dojo-attach-event="onchange:_onSearchServiceSelected" type="search"
+        placeholder="Search service number...." />
+    <datalist id="servicesList">
+    </datalist>
+    <select id="layoutTemplateSelect" data-dojo-attach-point="layoutTemplateSelect">
+    </select>
+    <button id="printButton" data-dojo-attach-point="printButton" data-dojo-attach-event="onclick:_print">Print</button>
+    <div class="jimu-widget-bus-route-manager print-wait-message" id="printWait" data-dojo-attach-point="printWait">
+        <h2>Printing....</h2>
+        <div class="jimu-widget-bus-route-manager lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>

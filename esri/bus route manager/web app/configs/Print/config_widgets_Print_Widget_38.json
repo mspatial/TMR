@@ -1,0 +1,9 @@
+{
+  "serviceURL": "https://stas-arcgis-dev.qdot.qld.gov.au/server/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "Bus Route Manager",
+  "defaultAuthor": "TransLink",
+  "defaultCopyright": "",
+  "defaultFormat": "PDF",
+  "defaultLayout": "A4 Landscape",
+  "copyrightEditable": true
+}

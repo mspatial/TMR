@@ -1,0 +1,29 @@
+<div>
+    <h1>Bus Route Manager</h1>
+    <br />
+    <label class="jimu-widget-bus-route-manager" for="operatorSelect">Operator: </label>
+    <select id="operatorSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-point="operatorSelect"
+        data-dojo-attach-event="change:_operatorSelectChanged">
+    </select>
+    <br />
+    <label class="jimu-widget-bus-route-manager" for="serviceNumberSelect">Service Number: </label>
+    <select id="serviceNumberSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-point="serviceNumberSelect"
+        data-dojo-attach-event="change:_serviceNumberSelectChanged">
+    </select>
+    <br />
+    <label class="jimu-widget-bus-route-manager" for="scheduleNameSelect">Schedule: </label>
+    <select id="scheduleNameSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-point="scheduleNameSelect"
+        data-dojo-attach-event="change:_scheduleNameSelectChanged">
+    </select>
+    <br />
+
+
+    <br />
+    <label for="searchInput">Search: </label>
+    <input autocomplete="off" id="searchInput" list="servicesList" data-dojo-attach-point="searchInput">
+    <datalist id="servicesList">
+        <option value="P1234">
+        <option value="S1234">
+    </datalist>
+    <button>Find</button>
+</div>
